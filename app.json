@@ -1,0 +1,28 @@
+{
+  "id": "0dc6f169-64d6-4fb8-b6d6-bc57a79bf7e8",
+  "name": "ML_Field_Additions",
+  "publisher": "ML",
+  "version": "1.0.0.2",
+  "runtime": "8.0",
+  "target": "Cloud",
+  "platform": "19.0.29884.30390",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "version": "19.0.29894.32599",
+      "publisher": "Microsoft"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99000
+    }
+  ]
+}

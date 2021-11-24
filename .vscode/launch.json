@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Publish: Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "tenant": "ecopluspteltd.onmicrosoft.com",
+            "environmentType": "Sandbox",
+            "environmentName": "ep_sandbox_18112021",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        }
+        // Use Ctrl+Space to trigger IntelliSense and get assistance on the supported configurations for AL development.
+
+        
+    ]   
+}
